@@ -129,22 +129,22 @@ Klik.prototype.createVideo = function(){
 	$(window).bind('mozfullscreenchange', function(e){
 		var state = document.fullScreen || document.mozFullScreen || document.webkitIsFullScreen;
 	    var event = state ? 'FullscreenOn' : 'FullscreenOff'; 
-	    console.log(event)
+
 	    if (event === 'FullscreenOff') {
 	    	$(selecteur).children().css('z-index','');
 	    }else{
-	    	console.log('zindexxxxxx')
+
 	    	$(selecteur).children().css(zIndex);
 	    };  
 	})
 	$(videoDom).bind('webkitfullscreenchange  fullscreenchange', function(e) {
 	    var state = document.fullScreen || document.mozFullScreen || document.webkitIsFullScreen;
 	    var event = state ? 'FullscreenOn' : 'FullscreenOff'; 
-	    console.log(event)
+
 	    if (event === 'FullscreenOff') {
 	    	$(selecteur).children().css('z-index','');
 	    }else{
-	    	console.log('zindexxxxxx')
+
 	    	$(selecteur).children().css(zIndex);
 	    };  
 	});
@@ -512,7 +512,7 @@ KlikLayer.prototype.dynamise = function(data){
 		        }
 		    });
 		}
-		console.log(hTime)
+
 		_this.hTime = hTime;	
 		var lastTime = -1;
 		$(video).on('timeupdate', function () {
@@ -558,7 +558,7 @@ KlikLayer.prototype.drawPolygones = function(polys){
 			});
 			var path = getPath(coordinatesString);		
 			_this.polyPath = new KlikPath(_this.R, poly, _this.video, _this.layerEventInit);
-			console.log(_this)
+
 			_this.polyPath.attr('path',path).attr('fill','red').attr('fill-opacity',0).attr('stroke-width', 0);
 				
 
