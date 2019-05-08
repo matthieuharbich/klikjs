@@ -11,26 +11,26 @@ Only tested on chrome, implemented in 10 minutes.
 ## Get started
 ### your html5 video
 This is your html5 video in your html file:
-~~~~~
+```html
 <video class="klik" width="" height="">
 	  <source src="yourVideo.mp4" type="video/mp4">
 	   Your browser does not support the video tag.
 </video>
-~~~~~
+```
 
 And this is how easy it is to make it a klik video in your JavaScript file:
-~~~~~
+```js
 var klikVideo = new Klik('.klik');
-~~~~~
+```
 
 ## Dependences
 - Jquery.js
 - Raphaël.js
 
 ## Documentation
-### Klik
-- [addLayer()](#addLayer)
-- [addGraphicLayer()](#addGraphicLayer())
+### [Klik](#Klik\(selector,\ width,\ height,\ position\))
+- addLayer() {: #addLayer}
+- [addGraphicLayer()](#addGraphicLayer\(\))
 - [setControls()](#setControls())
 - [togglePlayPause()](#togglePlayPause())
 - [toggleMute()](#toggleMute())
@@ -47,39 +47,30 @@ var klikVideo = new Klik('.klik');
 - [adaptToVideo()](#adaptToVideo())
 
 
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- fe
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
-- f
+## Klik(selector, width, height, position)
+### Parameters
+- Selector: (required) String
+  - Id or Class pointing to your HTML5 video element
+- Width: (optional) String OR Number
+  - Width of your video element if not defined in your element. (Default: 100%)
+- Height: (optional) String OR Number
+  - Height of your video element if not defined in yout element. (Default: 100%)
+- Position: (optional) String
+  - "left" or "center" (by default) or "right" - It defines the position of your video element in its container.
+### Example
+```js
+// Include scripts in your code
+	var klik = new Klik('.video');
+//To set your video and its parameters
+	klik.createVideo();
+```
+## addLayer() 
 
-## <a href='#addLayer' id='installation-guide' class='anchor' aria-hidden='true'>Installation guide()</a>
+## addGraphicLayer()
+## addLayer()
+## addLayer()
+## addLayer()
+## addLayer()
 produces:
 
 
