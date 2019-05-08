@@ -15,4 +15,4 @@ produces:
 
 and we can even [link](#head1234) to it so:
 
-[Some text](##Documentation)
+[Some text](#Documentation)
