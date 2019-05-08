@@ -1,4 +1,5 @@
 # klikjs
+## Documentation
 
 Klikjs is a library enabling interactivity in html5 videos
 
