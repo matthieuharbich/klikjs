@@ -79,7 +79,7 @@ var klikVideo = new Klik('.klik');
 - f
 - f
 
-## addLayer()
+##addLayer()
 produces:
 
 
