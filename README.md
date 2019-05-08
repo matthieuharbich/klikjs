@@ -29,7 +29,7 @@ var klikVideo = new Klik('.klik');
 
 ## Documentation
 ### Klik
-- [addLayer()](#addLayer())
+- [addLayer()](#addLayer)
 - [addGraphicLayer()](#addGraphicLayer())
 - [setControls()](#setControls())
 - [togglePlayPause()](#togglePlayPause())
@@ -54,7 +54,7 @@ var klikVideo = new Klik('.klik');
 - f
 - f
 - f
-- f
+- fe
 - f
 - f
 - f
@@ -79,7 +79,7 @@ var klikVideo = new Klik('.klik');
 - f
 - f
 
-##addLayer()
+## addLayer
 produces:
 
 
