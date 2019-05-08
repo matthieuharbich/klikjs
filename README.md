@@ -28,8 +28,8 @@ var klikVideo = new Klik('.klik');
 - Raphaël.js
 
 ## Documentation
-### [Klik](#Klik\(selector,\ width,\ height,\ position\))
-- addLayer() {: #addLayer}
+### [Klik](#Klik\(selector,-width,\ height,\ position\))
+- [addLayer()] (#addLayer)
 - [addGraphicLayer()](#addGraphicLayer\(\))
 - [setControls()](#setControls())
 - [togglePlayPause()](#togglePlayPause())
@@ -64,7 +64,7 @@ var klikVideo = new Klik('.klik');
 //To set your video and its parameters
 	klik.createVideo();
 ```
-## addLayer() 
+## addLayer(#addLayer)
 
 ## addGraphicLayer()
 ## addLayer()
