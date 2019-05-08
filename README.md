@@ -79,7 +79,7 @@ var klikVideo = new Klik('.klik');
 - f
 - f
 
-## addLayer
+## <a href='#addLayer' id='installation-guide' class='anchor' aria-hidden='true'>Installation guide()</a>
 produces:
 
 
